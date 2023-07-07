@@ -1,0 +1,189 @@
+body {
+    width: 100%;
+    height: auto;
+    color:#F6F6F4;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+.header {
+    height: 700px;
+    background-color: #EF72AB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+}
+.logo {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    line-height:0;
+}
+.logo-firstname {
+    font-family: 'Nunito', sans-serif;
+    font-size: 96px;
+    font: 400;
+
+}
+.logo-lastname {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.logo-portfolio {
+    font-family: 'Allura', cursive;
+    color:#7B3F52;
+    font-size: 40px;
+    transform: rotate(337deg);
+    position:relative;
+    bottom: 70px;
+    left: 70px;
+    padding: 0;
+
+}
+.nav-links {
+   
+
+}
+.nav-list {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+.nav-list-item {
+    list-style: none;
+    padding: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color:#F6F6F4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+a:hover {
+    color:#7B3F52;
+}
+.about-container {
+    background-color: #373134;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px;
+    height: 700px;
+
+}
+
+.about-container p {
+    margin-right:20px ;
+}
+.about-heading {
+
+}
+.profile-pic {
+    width: 311px;
+    height: 396px;
+    border-radius: 25px;
+    margin-left: 20px;
+
+}
+.projekt-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    height: fit-content;
+    background-color: #7B3F52;
+    
+
+}
+.projekt-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.projekt-card {
+    background-color: #F6F6F4;
+    width: 30%;
+    height: fit-content;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 15px;
+
+}
+
+.projekt-card p {
+    color: #7B3F52;
+}
+.projekt-card a {
+    color: #EF72AB;
+    margin: 10px;
+
+}
+.cv-container {
+    background-color: #373134;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+
+}
+.cv-frame {
+    background-color: #F6F6F4;
+    width: 80%;
+    height:fit-content;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.cv-card {
+    color:black;
+    text-align: center;
+    
+
+}
+
+.cv-card a {
+    color:black;
+}
+.cv-card a:hover {
+    color:#7B3F52;
+}
+
+ul li {
+    list-style-type: none;
+}
+.form-container {
+    background-color: #7B3F52;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
